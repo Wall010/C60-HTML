@@ -1,0 +1,96 @@
+header{
+    background: linear-gradient(red,blue,#2323,blue);
+    padding: 16px;
+}
+
+header h1{
+    color: antiquewhite;
+    display: inline-block;
+    position: relative;
+    bottom: 45px;
+    margin-left: 15px;
+}
+
+nav {
+    background: linear-gradient(brown , green);
+    margin-bottom: 20px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li{
+    flex-grow: 1;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 3px 5px;
+    display: block;
+    text-align: center;
+}
+
+footer{
+    background: linear-gradient(#ff0000, #ff6d00, #ffda00, #6dff00, #00926d, #1500db, #55008e, #9400d3);
+    color: antiquewhite;
+    clear: both;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+
+nav ul li a.activo{
+    background-color: blue;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding-top: 100px;
+    background: #3c31dd;
+}
+
+.curve {
+    position: absolute;
+    height: 250px;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+
+
+
+/*Inicio Texto*/
+
+.listas01{
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.listas01 ul{
+    color: aliceblue;
+}
+
+.bubble::after {
+    content: '';
+    border-top-left-radius: 50% 80%;
+    border-top-right-radius: 50% 80%;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    width: 80%;
+    background-color: #0f0f10;
+    height: 85%;
+}
+
+/*Fin Texto*/
